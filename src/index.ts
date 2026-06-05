@@ -14,11 +14,7 @@ const client = new Client({
 
 // Declare commands collection
 declare global {
-  namespace NodeJS {
-    interface Global {
-      commands: Collection<string, any>;
-    }
-  }
+  var commands: Collection<string, any>;
 }
 
 globalThis.commands = new Collection();
