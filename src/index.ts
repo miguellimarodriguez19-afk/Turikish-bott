@@ -31,8 +31,8 @@ client.on('messageCreate', async (message) => {
     await message.reply('Pong! 🏓');
   }
 
-  // Comando !application
-  if (message.content === '!application') {
+  // Comando !aplicacao
+  if (message.content === '!aplicacao') {
     const components = [
       new ContainerBuilder()
         .addMediaGalleryComponents(
